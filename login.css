@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    background:url(—Pngtree—3d\ render\ of\ autumn\ themed_8833100.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-position:auto;
+}
+.wrapper{
+    width:420px;
+    color:white;
+    border-radius: 10px;
+    background: transparent;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 40px;
+    text-align:center;
+    font-weight: bold;
+}
+.wrapper .input-box{
+    width:100%;
+    height:50px;
+    margin:30px 0;
+}
+.input-box input{
+   width:100%;
+   height: 100%;
+   border:2px solid orange;
+   outline: none;
+   border-radius: 40px;
+   font-size: 16px;
+   color: black;
+   padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+   color: lightsalmon;
+   font-weight: bold;
+}
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px;
+}
+.remember-forget label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.remember-forget a{
+    color:black;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color:orange;
+    font-weight: bold;
+    text-align: center;
+    border:2px solid orange;
+}
+.wrapper .btn .a:hover{
+    text-decoration: underline;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color:white;
+    text-decoration: none;
+    font-weight: 600px;
+}
+.register-link a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+ .wrapper .forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px;
+}
+.forget label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.forget a{
+    color:white;
+    text-decoration: none;
+}
+.forget a:hover{
+    text-decoration: underline;
+}

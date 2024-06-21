@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InstiOLX Selling Interface</title>
+    <link rel="stylesheet" href="selling.css">
+    <link rel="shortcut icon" href="sellingicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>InstiOLX</h1>
+        <form action="submit_form.php" method="POST" enctype="multipart/form-data">
+            <div class="input-box">
+                <input type="text" id="title" name="title" placeholder="Title" required>
+            </div>
+            <div class="input-box" >
+                <textarea id="description" name="description" rows="4" placeholder="Description" required ></textarea>
+            </div>
+            <div class="input-box">
+                <input type="text" id="price" name="price" placeholder="Price" required>
+            </div>
+            <div class="input-box">
+                <input type="date" id="buying_date" name="buying_date" placeholder="Buying Date" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="buying_price" name="buying_price" placeholder="Buying Price" required>
+            </div>
+            <div class="input-box">
+                <input type="file" id="photos" name="photos[]" multiple required>
+            </div>
+            <div class="input-box">
+                <textarea id="details" name="details" rows="4" placeholder="Your Details" required></textarea>
+            </div>
+            <div class="input-box">
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="location" name="location" placeholder="Location" required>
+            </div>
+                <button type="submit" formaction="homepage.html">Post</button>
+        </form>
+    </div>
+</body>
+</html>
